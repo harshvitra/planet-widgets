@@ -1,6 +1,6 @@
 {
-  "name": "svelte-app",
-  "version": "3.1.0",
+  "name": "planet-widgets",
+  "version": "0.1.0",
   "scripts": {
     "build": "rollup -c",
     "dev": "rollup -c -w",
@@ -24,5 +24,20 @@
     "mapbox-gl": "^1.12.0",
     "sirv-cli": "^1.0.10",
     "svelte-content-loader": "^1.1.3"
-  }
+  },
+  "description": "An example [Svelte](https://svelte.dev/) application that shows how to use [esri-loader](https://github.com/Esri/esri-loader) to load a map. [View the live app here](https://esri-svelte-example.surge.sh/).",
+  "main": "rollup.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/harshvitra/planet-widgets.git"
+  },
+  "keywords": [
+    "planet-widgets"
+  ],
+  "author": "Harsh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/harshvitra/planet-widgets/issues"
+  },
+  "homepage": "https://github.com/harshvitra/planet-widgets#readme"
 }
